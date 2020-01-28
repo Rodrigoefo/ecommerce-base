@@ -12,6 +12,8 @@ gem 'rails', '~> 5.1.3'
 gem 'pg', '~> 0.18'
 gem 'devise', git: 'https://github.com/plataformatec/devise.git'
 gem 'faker'
+gem 'rails-erd', require: false, group: :development
+gem 'paypal-sdk-rest'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
